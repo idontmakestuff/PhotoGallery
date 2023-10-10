@@ -1,0 +1,18 @@
+DisplayScreen
+
+<DisplayScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        Label:
+            text: "PIKLOPEDIA"
+        Image:
+            id: image
+            source: root.display_image()
+            size_hint: 1,6
+        BoxLayout:
+            orientation: "horizontal"
+            Button:
+                text: "<<"
+            Button:
+                text: ">>"
+
